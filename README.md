@@ -16,17 +16,11 @@ Todas las maquinas se iniciaran con la siguiente configuracion:
 * Tipo de instancia: t2.micro
 * Grupo de Seguridad con los siguientes puertos activos:
     * 80
+    * 443
+    * 3306
+    * 2049
+    * 22
 
 *******
 
-```ssh
-sudo apt-get update
-sudo apt-get upgrade
-sudo apt-get install python3
-sudo apt-get install python3-pip
-sudo apt install docker.io
-sudo docker run -d --hostname my-rabbit -p 15672:15672 -p 5672:5672 --name rabbit-server rabbitmq:3-management
-sudo git clone https://github.com/DannyMelguizo/Telematica-Proyecto1.git
-cd Telematica-Proyecto1
-sudo python3 -m pip install -r requirements.txt
-```
+En cada carpeta encontraras los respectivos comandos para correr cada una de las instancias, cabe mencionar que cada instancia cuenta con docker y docker compose, recomiendo usar la guia oficial para instalar docker: https://docs.docker.com/engine/install/ubuntu/

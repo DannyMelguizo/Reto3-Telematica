@@ -10,6 +10,6 @@ services:
       WORDPRESS_DB_HOST: IP_HOST
       WORDPRESS_DB_USER: exampleuser
       WORDPRESS_DB_PASSWORD: examplepass
-      WORDPRESS_DB_NAME: exampledb
+      WORDPRESS_DB_NAME: wordpress
     volumes:
       - /mnt/wordpress:/var/www/html 
