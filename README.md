@@ -23,4 +23,4 @@ Todas las maquinas se iniciaran con la siguiente configuracion:
 
 *******
 
-En cada carpeta encontraras los respectivos comandos para correr cada una de las instancias, cabe mencionar que cada instancia cuenta con docker y docker compose, recomiendo usar la guia oficial para instalar docker: https://docs.docker.com/engine/install/ubuntu/
+En cada carpeta encontraras los respectivos comandos para correr cada una de las instancias, cabe mencionar que cada instancia debe contar con docker y docker compose instalados, recomiendo usar la guia oficial para instalar docker: https://docs.docker.com/engine/install/ubuntu/
